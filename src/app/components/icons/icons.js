@@ -14,7 +14,7 @@ export const GithubIcon = () => (
 );
 
 export const FBIcon = () => (
-  <Link href="https://facebook.com/" target="_blank" rel="noopener noreferrer">
+  <Link href="https://web.facebook.com/profile.php?id=61553234229353" target="_blank" rel="noopener noreferrer">
     <Image
       src="/icons/fb.svg"
       alt="Facebook Icon"
