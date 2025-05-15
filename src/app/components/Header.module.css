@@ -1,0 +1,50 @@
+
+
+.header {
+  background-color: #333;
+  padding: 1rem 2rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.navList li a {
+  (appliedtoLinknow)color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.navList li a:hover {
+  (appliedtoLinknow)background-color: #555;
+}
+
+.navList li.active a {
+  (appliedtoLinknow,conditionally)font-weight: bold;
+  background-color: #0070f3;
+  color: white;
+}
